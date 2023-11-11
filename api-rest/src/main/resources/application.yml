@@ -9,3 +9,9 @@ spring:
     url: jdbc:mysql://127.0.0.1:3306/alunos
     username: root
     password: 123
+
+  app:
+    jwt:
+      expiration: 60
+      secret: YcOndWNhciBzZW5oYSBzdXBlciBzZWd1cmEgZSBzZWNyZXRhIHF1ZSBuaW5ndcOpbSBzYWJlIHF1YWwgw6kuLi4=
+
